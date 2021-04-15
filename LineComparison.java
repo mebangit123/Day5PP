@@ -9,5 +9,6 @@ public static void main(String[] args) {
 	String line2 = Double.toString(Math.sqrt(Math.pow(x4 - x3, 2) + Math.pow(y4 -y3, 2)));
 
 	System.out.println(line1.equals(line2));
+	System.out.println(line1.compareTo(line2));
 	}
 }
